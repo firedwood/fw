@@ -1,5 +1,0 @@
-com\example\fw\entity\User.class
-com\example\fw\service\UserService.class
-com\example\fw\repository\UserRepository.class
-com\example\fw\controller\UserController.class
-com\example\fw\FwApplication.class
