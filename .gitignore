@@ -10,10 +10,26 @@ node_modules
 /frontend/node_modules
 /frontend/build
 
-# IDE 관련
+# IDE 설정 파일
 *.iml
+.idea/
 .vscode/
-*.DS_Store
+.DS_Store
 
-# 환경 파일
+# 로그 및 임시 파일
+*.log
+*.tmp
+
+# 환경 설정 파일 (보안)
 *.env
+application.properties
+application.yml
+src/main/resources/application.properties
+ 
+ # React 관련
+/frontend/node_modules/
+frontend/build/
+
+# 기타
+*.bak
+*.swp
