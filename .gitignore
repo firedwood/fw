@@ -1,1 +1,19 @@
 node_modules
+
+# Java/Spring 관련
+/target
+*.class
+*.log
+*.jar
+
+# React 관련
+/frontend/node_modules
+/frontend/build
+
+# IDE 관련
+*.iml
+.vscode/
+*.DS_Store
+
+# 환경 파일
+*.env
